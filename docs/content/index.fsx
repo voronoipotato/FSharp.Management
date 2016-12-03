@@ -38,7 +38,7 @@ This example demonstrates the use of the FileSystem type provider:
 #r "FSharp.Management.dll"
 open FSharp.Management
 
-// Let the type provider do it's work
+// Let the type provider do its work
 type Users = FileSystem<"C:\\Users\\">
 
 // now you have typed access to your filesystem and you can browse it via Intellisense
